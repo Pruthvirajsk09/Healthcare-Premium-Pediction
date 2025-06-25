@@ -28,18 +28,14 @@ Each notebook follows a structured machine learning workflow:
 ### 🔹 3. Feature Scaling
 - Applied `Scalings` to normalize numerical features and prepare for downstream modeling steps.
 
-### 🔹 4. WOE and IV Analysis
-- Performed **Weight of Evidence (WOE)** transformation and calculated **Information Value (IV)** to identify strong predictors.
-- Transformed selected features using WOE for better handling of categorical variables in linear models.
-
-### 🔹 5. Feature Engineering & Encoding
+### 🔹 4. Feature Engineering & Encoding
 - Encoded categorical variables using appropriate strategies.
 - Created or refined features to enhance model accuracy and ensure compatibility between datasets.
 
-### 🔹 6. Multicollinearity Check
+### 🔹 5. Multicollinearity Check
 - Applied **Variance Inflation Factor (VIF)** to remove redundant and highly correlated features.
 
-### 🔹 7. Model Development
+### 🔹 6. Model Development
 - Trained and compared several classification algorithms:
   - `LogisticRegression`
   - `RandomForestClassifier`
