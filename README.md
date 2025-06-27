@@ -2,8 +2,6 @@
 
 # Insurance Premium Prediction
 
-This project focuses on predicting insurance premiums using machine learning techniques. During early experimentation, significant prediction errors were observed in younger individuals, prompting a deeper investigation and eventual refinement of the modeling pipeline. The final model is designed to generalize well across all age groups while maintaining consistent accuracy.
-
 ---
 
 - The initial model struggled to predict premiums accurately for individuals aged ≤ 25.
